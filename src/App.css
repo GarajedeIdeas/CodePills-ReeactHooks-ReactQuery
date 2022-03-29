@@ -1,0 +1,37 @@
+.App {
+  text-align: center;
+}
+
+.products{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.product{
+  width: 500px;
+  display: flex;
+  background-color: lightgray;
+  border: 5px solid black;
+  border-radius: 10px;
+  margin: 10px;
+}
+
+.product .left{
+  width: 30%;
+  background-size: cover;
+  background-position: center center;
+  padding: 30px;
+  border-radius: 10px 0 0 10px;
+}
+
+.product .right{
+  width: 70%;
+  text-align: left;
+  padding: 0 20px;
+}
+
+.product img{
+  width: 100%;
+}
